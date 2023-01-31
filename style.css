@@ -240,61 +240,16 @@ header .navbar ul li a:hover{
     font-size: 2rem;
     color:#fff;
 }
+.counter .box:hover i{
+    color:#c289c7b9;
 
-/* .education .box-container{
-    display: flex;
-    align-items: center;
-justify-content:space-around;
-    flex-wrap: wrap;
-    padding:1rem 0;
-    padding-left: 3rem;
-} */
-
-/* .education .box-container .box{
-    width:40rem;
-    margin:4rem 1rem;
-    padding-left: 4rem;
-    border-left: .2rem solid #fff;
-    position: relative;
 }
 
 
-.education .box-container .box span{
-    font-size: 1.3rem;
-    background:#222;
-    color:#fff;
-    border-radius: 5rem;
-    padding:.5rem 2.5rem;
-}
-
-.education .box-container .box h3{
-    font-size: 2rem;
-    color:#fff;
-    padding-top: 1.5rem;
-}
-
-.education .box-container .box p{
-    font-size: 1.4rem;
-    color:#eee;
-    padding: 1rem 0;
-}
-
-.education .box-container .box i{
-    position: absolute;
-    top:-1.5rem; left:-2.5rem;
-    height:5rem;
-    width: 5rem;
-    border-radius: 50%;
-    line-height: 5rem;
-    text-align: center;
-    font-size: 2rem;
-    color:#fff;
-    background:#c289c7b9;
-} */
 .fa-linkedin:hover{
     color: #0a66c2;
 }
-.fa-github:hover{
+.fa-github{
     color: white;
 }
 .fa-facebook:hover{
@@ -303,23 +258,29 @@ justify-content:space-around;
 .fa-instagram:hover{
     color:  palevioletred;
 }
-.fa-c:hover{
+.fa-c{
     color: #4267B2;
 
 }
-.fa-html5:hover{
+.fa-node{
+    color: green;
+}
+.fa-database{
+    color: greenyellow;
+}
+.fa-html5{
     color: #f06529;
 }
-.fa-css3-alt:hover{
+.fa-css3-alt{
     color: #2965f1;
 }
-.fa-js:hover{
+.fa-js{
     color: yellow;
 }
-.fa-react:hover{
+.fa-react{
     color: #61DBFB;
 }
-.fa-git-alt:hover{
+.fa-git-alt{
    color: #F1502F;
 }
 .portfolio .box-container{
