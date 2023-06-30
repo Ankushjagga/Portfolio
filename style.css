@@ -526,6 +526,9 @@ flex-wrap: wrap;
        text-align: center;
        padding: 1rem;
    }
+   .about{
+    padding: 0;
+   }
  
  }
 
