@@ -45,7 +45,6 @@ body{
 
 section{
     min-height: 95.6vh;
-    padding:1rem;
 }
 
 .btn{
@@ -196,16 +195,19 @@ header .navbar ul li a:hover{
     flex-wrap: wrap;
     padding:1rem 0;
 }
+.about{
+    padding: 0 10rem;
+}
 
 .about .row .info{
     flex:1 1 48rem;
     padding:2rem 1rem;
-    padding-left: 6rem;
 }
 .infos{
     display: flex;
 gap: 2rem;
 justify-content: center;
+flex-wrap: wrap;
 }
 
 .about .row .info h3{
@@ -312,11 +314,9 @@ justify-content: center;
     flex-wrap: wrap;
     padding:2rem 0;
 }
-#contact{
-    height:60vh
-}
+
 .portfolio .box-container .box{
-    height: 43rem;
+    height: 65vh;
     width: 42rem;
     border-radius: 1rem;
     margin:2rem;
@@ -435,6 +435,11 @@ justify-content: center;
     color: white;
     background-color: black;
     padding: 1.7rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.footer>h4{
+    margin: 2rem;
 }
 .foo-connect i{
     padding:  0 1rem;
@@ -532,6 +537,7 @@ justify-content: center;
 
     .heading{
         margin:0 3rem;
+        font-size: 3rem;
     }
 
     .about .row .counter .box{
@@ -549,5 +555,16 @@ justify-content: center;
     .contact .row form{
         margin:3rem 0;
     }
-
+    .home>h3{
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+    .home>h1{
+        font-size: 3rem;
+    }
+    .btn-a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
  }
